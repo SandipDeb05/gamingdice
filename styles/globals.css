@@ -168,7 +168,7 @@ span.text-red {
 .hero-banner-image {
   position: absolute;
   top: 0%;
-  right: 20%;
+  right: 0%;
   width: 450px;
   height: 450px;
 }
@@ -623,6 +623,10 @@ span.text-red {
   .banner-desc .right h3 {
     font-size: 3rem;
   }
+  /* .hero-banner-image {
+    width: 10rem;
+    height: 10rem;
+  } */
 }
 
 @media screen and (max-width: 900px) {
@@ -630,10 +634,10 @@ span.text-red {
     height: 560px;
   }
   .hero-banner-image {
-    width: 77%;
-    height: 62%;
-    top: -2%;
-    right: -6%;
+    width: 40%;
+    height: 50%;
+    top: 15%;
+    right: 10%;
   }
   .footer-banner-container {
     height: 350px;
@@ -816,6 +820,12 @@ span.text-red {
 }
 
 @media screen and (max-width: 500px) {
+  .hero-banner-image {
+    width: 50%;
+    height: 40%;
+    top: 30%;
+    right: 2%;
+  }
   .banner-desc {
     flex-direction: column;
     align-items: center;
