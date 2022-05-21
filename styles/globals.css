@@ -131,14 +131,13 @@ span.text-red {
 
 .hero-banner-container {
   padding: 100px 40px;
-  background-color: #dcdcdc;
   border-radius: 15px;
   position: relative;
   height: 500px;
   line-height: 0.9;
   width: 100%;
-  background-color: #ffc43d;
-  background-image: url("../lib/ubinews-wdl-online_preview-thumbnail.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../lib/cover.webp");
   background-size: cover;
   background-position: center;
 }
@@ -164,8 +163,8 @@ span.text-red {
 }
 .hero-banner-container h1 {
   color: white;
-  font-size: 10em;
-  margin-left: -20px;
+  font-size: 8em;
+  /* margin-left: -20px; */
   text-transform: uppercase;
 }
 .hero-banner-image {
@@ -187,15 +186,16 @@ span.text-red {
   color: #054a91;
 }
 .desc p {
-  color: #232e21;
+  /* color: #232e21; */
   font-weight: 400;
   text-align: end;
+  color: #fff;
 }
 .desc h5 {
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 16px;
-  /* color: black; */
+  color: #f02d34;
   align-self: flex-end;
 }
 .products-heading {
@@ -206,6 +206,8 @@ span.text-red {
 .products-heading h2 {
   font-size: 40px;
   font-weight: 800;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
 }
 .products-heading p {
   font-size: 18px;
@@ -824,11 +826,18 @@ span.text-red {
 }
 
 @media screen and (max-width: 500px) {
+  .hero-banner-container {
+    padding: 20px 30px;
+    text-align: center;
+  }
+  .hero-banner-container button {
+    margin-top: 30px;
+  }
   .hero-banner-image {
     width: 50%;
     height: 40%;
-    top: 30%;
-    right: 2%;
+    top: 40%;
+    right: 25%;
   }
   .banner-desc {
     flex-direction: column;
