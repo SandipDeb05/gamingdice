@@ -9,11 +9,11 @@ const Footer = () => {
       <p className="icons">
         <a
           href="https://www.linkedin.com/in/sandip-deb-8b76b2157/"
-          target="_blank"
+          target={"_blank"}
         >
           <AiFillLinkedin />
         </a>
-        <a href="https://github.com/SandipDeb05" target="_blank">
+        <a href="https://github.com/SandipDeb05" target={"_blank"}>
           <AiFillGithub />
         </a>
       </p>
