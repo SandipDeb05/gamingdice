@@ -10,14 +10,14 @@ const Footer = () => {
         <a
           href="https://www.linkedin.com/in/sandip-deb-8b76b2157/"
           target={"_blank"}
-          rel={"noopener"}
+          rel={"noopener noreferrer"}
         >
           <AiFillLinkedin />
         </a>
         <a
           href="https://github.com/SandipDeb05"
           target={"_blank"}
-          rel={"noopener"}
+          rel={"noopener noreferrer"}
         >
           <AiFillGithub />
         </a>
