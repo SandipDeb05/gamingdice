@@ -831,18 +831,18 @@ span.text-red {
     text-align: center;
   }
   .hero-banner-container button {
-    margin-top: 30px;
+    margin-top: 15.5rem;
   }
   .hero-banner-image {
     width: 50%;
     height: 40%;
-    top: 40%;
+    top: 25%;
     right: 25%;
   }
   .banner-desc {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 0;
     text-align: center;
   }
   .banner-desc button {
@@ -857,17 +857,20 @@ span.text-red {
     font-size: 10px;
   }
   .banner-desc .right h3 {
-    font-size: 20px;
+    font-size: 30px;
   }
   .banner-desc .right p {
     font-size: 10px;
   }
-  .left,
+
   .right {
     padding: 0;
   }
+  .left {
+    display: none;
+  }
   .footer-banner-image {
     padding: 0;
-    width: 8rem;
+    width: 12rem;
   }
 }
