@@ -138,6 +138,9 @@ span.text-red {
   line-height: 0.9;
   width: 100%;
   background-color: #ffc43d;
+  background-image: url("../lib/ubinews-wdl-online_preview-thumbnail.webp");
+  background-size: cover;
+  background-position: center;
 }
 .hero-banner-container .beats-solo {
   font-size: 20px;
