@@ -215,8 +215,6 @@ span.text-red {
   color: #232e21;
 }
 .footer-banner-container {
-  /* padding: 100px 40px; */
-  background-color: #f02d34;
   border-radius: 15px;
   position: relative;
   height: 400px;
@@ -224,6 +222,11 @@ span.text-red {
   color: white;
   width: 100%;
   margin-top: 120px;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../lib/footer.webp");
+  background-size: cover;
+  background-position: center;
 }
 .banner-desc {
   display: flex;
