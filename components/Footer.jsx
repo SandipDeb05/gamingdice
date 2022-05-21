@@ -1,13 +1,21 @@
 import React from "react";
-import { AiFillInstagram, AiOutlineTwitter } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 const Footer = () => {
   return (
     <div className="footer-container">
-      <p>2022 Sandip Store All rights reserved</p>
+      <p>Sandip Store 2022 || All rights reserved</p>
+      <p>Coded by Sandip Deb</p>
       <p className="icons">
-        <AiFillInstagram />
-        <AiOutlineTwitter />
+        <a
+          href="https://www.linkedin.com/in/sandip-deb-8b76b2157/"
+          target="_blank"
+        >
+          <AiFillLinkedin />
+        </a>
+        <a href="https://github.com/SandipDeb05" target="_blank">
+          <AiFillGithub />
+        </a>
       </p>
     </div>
   );
