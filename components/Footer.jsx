@@ -7,18 +7,10 @@ const Footer = () => {
       <p>Sandip Store 2022 || All rights reserved</p>
       <p>Coded by Sandip Deb</p>
       <p className="icons">
-        <a
-          href="https://www.linkedin.com/in/sandip-deb-8b76b2157/"
-          target={"_blank"}
-          rel={"noopener noreferrer"}
-        >
+        <a href="https://www.linkedin.com/in/sandip-deb-8b76b2157/">
           <AiFillLinkedin />
         </a>
-        <a
-          href="https://github.com/SandipDeb05"
-          target={"_blank"}
-          rel={"noopener noreferrer"}
-        >
+        <a href="https://github.com/SandipDeb05">
           <AiFillGithub />
         </a>
       </p>
