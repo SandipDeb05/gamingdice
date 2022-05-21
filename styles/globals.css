@@ -108,7 +108,7 @@ span.text-red {
   cursor: pointer;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
-  color: #324d67;
+  color: #054a91;
 }
 .product-card:hover {
   transform: scale(1.1, 1.1);
@@ -137,7 +137,7 @@ span.text-red {
   height: 500px;
   line-height: 0.9;
   width: 100%;
-  background-color: yellow;
+  background-color: #ffc43d;
 }
 .hero-banner-container .beats-solo {
   font-size: 20px;
@@ -181,10 +181,10 @@ span.text-red {
   line-height: 1.3;
   display: flex;
   flex-direction: column;
-  color: #324d67;
+  color: #054a91;
 }
 .desc p {
-  color: #5f5f5f;
+  color: #232e21;
   font-weight: 100;
   text-align: end;
 }
@@ -198,16 +198,16 @@ span.text-red {
 .products-heading {
   text-align: center;
   margin: 40px 0px;
-  color: #324d67;
-  /* color: #cccccc; */
+  color: #054a91;
 }
 .products-heading h2 {
   font-size: 40px;
   font-weight: 800;
 }
 .products-heading p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 200;
+  color: #232e21;
 }
 .footer-banner-container {
   /* padding: 100px 40px; */
@@ -289,7 +289,7 @@ span.text-red {
 }
 
 .footer-container {
-  color: #324d67;
+  color: #054a91;
   text-align: center;
   margin-top: 20px;
   padding: 30px 10px;
@@ -356,7 +356,7 @@ span.text-red {
   display: flex;
   justify-content: space-between;
   width: 350px;
-  color: #324d67;
+  color: #054a91;
 }
 .item-desc .bottom {
   margin-top: 60px;
@@ -370,6 +370,7 @@ span.text-red {
 .total {
   display: flex;
   justify-content: space-between;
+  color: #232e21;
 }
 .total h3 {
   font-size: 22px;
@@ -417,8 +418,7 @@ span.text-red {
   gap: 40px;
   margin: 40px;
   margin-top: 60px;
-  /* color: #324d67; */
-  color: #0172ce;
+  color: #054a91;
 }
 
 .product-detail-image {
@@ -461,10 +461,11 @@ span.text-red {
   margin-top: 10px;
 }
 .product-detail-desc p {
+  color: #232e21;
   margin-top: 10px;
 }
 .reviews p {
-  color: #324d67;
+  color: #054a91;
   margin-top: 0px;
 }
 .product-detail-desc .price {
@@ -549,7 +550,7 @@ span.text-red {
 .maylike-products-wrapper h2 {
   text-align: center;
   margin: 50px;
-  color: #324d67;
+  color: #054a91;
 
   font-size: 28px;
 }
@@ -591,7 +592,7 @@ span.text-red {
   margin-top: 15px 0px;
   font-weight: 900;
   font-size: 40px;
-  color: #324d67;
+  color: #054a91;
 }
 .success .email-msg {
   font-size: 16px;
@@ -738,7 +739,7 @@ span.text-red {
   }
   .flex h5 {
     font-size: 16px;
-    color: #324d67;
+    color: #054a91;
   }
   .flex h4 {
     font-size: 16px;
