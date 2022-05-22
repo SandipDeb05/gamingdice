@@ -111,20 +111,23 @@ span.text-red {
   color: #054a91;
 }
 .product-card:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.08, 1.08);
 }
 .product-image {
   border-radius: 15px;
-  background-color: #ebebeb;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
+
+  background: #780206;
+  background: -webkit-linear-gradient(to top, #061161, #780206);
+  background: linear-gradient(to top, #061161, #780206);
 }
 
 .product-name {
   font-weight: 500;
 }
 .product-price {
-  font-weight: 800;
+  font-weight: 700;
   margin-top: 6px;
   color: #024b30;
 }
@@ -173,6 +176,7 @@ span.text-red {
   right: 0%;
   width: 450px;
   height: 450px;
+  filter: drop-shadow(0 0 2px #ffffff);
 }
 
 .desc {
@@ -250,7 +254,8 @@ span.text-red {
 .banner-desc button:hover {
   background-color: #024b30;
   color: #fff;
-  outline: 1px solid #fff;
+  outline: 0.5px solid #fff;
+  transition: all 300ms ease-in-out;
 }
 .banner-desc .left h3 {
   font-weight: 900;
@@ -267,6 +272,7 @@ span.text-red {
   /* top: -25%;
   left: 25%; */
   width: 21rem;
+  filter: drop-shadow(0 0 2px #ffffff);
 }
 .banner-desc .right {
   line-height: 1.4;
@@ -437,7 +443,9 @@ span.text-red {
 
 .product-detail-image {
   border-radius: 15px;
-  background-color: #ebebeb;
+  background: #780206;
+  background: -webkit-linear-gradient(to top, #061161, #780206);
+  background: linear-gradient(to top, #061161, #780206);
 
   width: 400px;
   height: 400px;
@@ -445,7 +453,9 @@ span.text-red {
   transition: 0.3s ease-in-out;
 }
 .product-detail-image:hover {
-  background-color: #024b30;
+  background: #780206;
+  background: -webkit-linear-gradient(to left, #061161, #780206);
+  background: linear-gradient(to left, #061161, #780206);
 }
 .small-images-container {
   display: flex;
@@ -461,7 +471,9 @@ span.text-red {
 }
 
 .selected-image {
-  background-color: #118c4f;
+  background: #780206;
+  background: -webkit-linear-gradient(to top, #061161, #780206);
+  background: linear-gradient(to top, #061161, #780206);
 }
 .reviews {
   color: #03925e;
@@ -486,7 +498,7 @@ span.text-red {
   font-weight: 700;
   font-size: 26px;
   margin-top: 30px;
-  color: #026c45;
+  /* color: #026c45; */
 }
 .price .old-price,
 .product-price .old-price,
