@@ -129,7 +129,7 @@ span.text-red {
 .product-price {
   font-weight: 700;
   margin-top: 6px;
-  color: #024b30;
+  color: #232e21;
 }
 
 .hero-banner-container {
@@ -244,7 +244,7 @@ span.text-red {
   border-radius: 15px;
   padding: 10px 16px;
   background-color: white;
-  color: #024b30;
+  color: #232e21;
   border: none;
   margin-top: 40px;
   font-size: 18px;
@@ -847,6 +847,12 @@ span.text-red {
 }
 
 @media screen and (max-width: 500px) {
+  .cart-container {
+    padding: 40px;
+  }
+  .cart-bottom {
+    padding: 30px 60px;
+  }
   .hero-banner-container {
     padding: 20px 30px;
     text-align: center;
