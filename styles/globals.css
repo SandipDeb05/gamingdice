@@ -848,7 +848,7 @@ span.text-red {
 
 @media screen and (max-width: 500px) {
   .cart-container {
-    padding: 40px;
+    padding: 20px 40px;
   }
   .cart-bottom {
     padding: 40px 60px;
