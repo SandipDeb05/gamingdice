@@ -900,3 +900,9 @@ span.text-red {
     width: 12rem;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .product-detail-desc {
+    padding-right: 1rem;
+  }
+}
