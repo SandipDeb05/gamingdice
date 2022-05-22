@@ -118,9 +118,9 @@ span.text-red {
   transform: scale(1, 1);
   transition: transform 0.5s ease;
 
-  background: #780206;
-  background: -webkit-linear-gradient(to top, #061161, #780206);
-  background: linear-gradient(to top, #061161, #780206);
+  background: #d31027;
+  background: -webkit-linear-gradient(to top, #ea384d, #d31027);
+  background: linear-gradient(to top, #ea384d, #d31027);
 }
 
 .product-name {
@@ -228,7 +228,7 @@ span.text-red {
   margin-top: 120px;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../lib/footer.webp");
+    url("../lib/footer.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -443,19 +443,18 @@ span.text-red {
 
 .product-detail-image {
   border-radius: 15px;
-  background: #780206;
-  background: -webkit-linear-gradient(to top, #061161, #780206);
-  background: linear-gradient(to top, #061161, #780206);
-
+  background: #d31027;
+  background: -webkit-linear-gradient(to top, #ea384d, #d31027);
+  background: linear-gradient(to top, #ea384d, #d31027);
   width: 400px;
   height: 400px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
 .product-detail-image:hover {
-  background: #780206;
-  background: -webkit-linear-gradient(to left, #061161, #780206);
-  background: linear-gradient(to left, #061161, #780206);
+  background: #d31027;
+  background: -webkit-linear-gradient(to right, #ea384d, #d31027);
+  background: linear-gradient(to right, #ea384d, #d31027);
 }
 .small-images-container {
   display: flex;
@@ -471,9 +470,9 @@ span.text-red {
 }
 
 .selected-image {
-  background: #780206;
-  background: -webkit-linear-gradient(to top, #061161, #780206);
-  background: linear-gradient(to top, #061161, #780206);
+  background: #d31027;
+  background: -webkit-linear-gradient(to right, #ea384d, #d31027);
+  background: linear-gradient(to right, #ea384d, #d31027);
 }
 .reviews {
   color: #03925e;
@@ -851,7 +850,7 @@ span.text-red {
     padding: 20px 40px 0px 40px;
   }
   .cart-bottom {
-    padding: 0px 60px 20 60px;
+    padding: 1rem 4rem 2rem 5rem;
   }
   .hero-banner-container {
     padding: 20px 30px;

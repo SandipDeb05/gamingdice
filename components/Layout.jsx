@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <div className="layout">
       <Head>
-        <title>Sandip Store</title>
+        <title>Gaming Dice</title>
       </Head>
       <header>
         <Navbar />

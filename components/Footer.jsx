@@ -4,7 +4,7 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 const Footer = () => {
   return (
     <div className="footer-container">
-      <p>Sandip Store 2022 || All rights reserved</p>
+      <p>Gaming Dice 2022 || All rights reserved</p>
       <p>Coded by Sandip Deb</p>
       <p className="icons">
         <a
