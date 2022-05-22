@@ -848,10 +848,10 @@ span.text-red {
 
 @media screen and (max-width: 500px) {
   .cart-container {
-    padding: 20px 40px;
+    padding: 20px 40px 0px 40px;
   }
   .cart-bottom {
-    padding: 20px 60px;
+    padding: 0px 60px 20 60px;
   }
   .hero-banner-container {
     padding: 20px 30px;
