@@ -19,6 +19,6 @@
 - Integrated Stripe to manage payments, products, shipping rates, and the entire checkout process
 - Managed the entire content of your app using Sanity.
 
-### Credits
+##### Credits
 
-This project is built by following [JavaScript Mastery](https://www.youtube.com/c/JavaScriptMastery) Youtube channel for learning purposes.
+This project was built under the guidance of [JavaScript Mastery](https://www.youtube.com/c/JavaScriptMastery) Youtube channel for learning purposes.
